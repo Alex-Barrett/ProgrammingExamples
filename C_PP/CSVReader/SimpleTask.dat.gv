@@ -1,0 +1,4 @@
+digraph tasks{ 
+"Approve" [shape=box];
+"Repair" [shape=box];
+}

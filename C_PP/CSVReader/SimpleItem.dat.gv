@@ -1,0 +1,27 @@
+digraph tasks{ 
+"I5 Install CPU" -> "Item Remove CPU" [color=blue];
+"I5 Install CPU" -> "Item 300" [color=blue];
+"I5 Install CPU" -> "Item Intel I5 Central Processing Unit" [color=blue];
+"I7 Install CPU" -> "Item Remove CPU" [color=blue];
+"I7 Install CPU" -> "Item 400" [color=blue];
+"I7 Install CPU" -> "Item Intel I7 Central Processing Unit" [color=blue];
+"A12 Install CPU" -> "Item Remove CPU" [color=blue];
+"A12 Install CPU" -> "Item 500" [color=blue];
+"A12 Install CPU" -> "Item AMD A12 APU – Accelerated Processing Unit (CPU+GPU in same chip)" [color=blue];
+"DDR 266 Install Memory" -> "Item Remove Memory" [color=blue];
+"DDR 266 Install Memory" -> "Item 125" [color=blue];
+"DDR 266 Install Memory" -> "Item Samsung DDR 266 Memory Stick" [color=blue];
+"DDR 400 Install Memory" -> "Item Remove Memory" [color=blue];
+"DDR 400 Install Memory" -> "Item 940" [color=blue];
+"DDR 400 Install Memory" -> "Item Samsung DDR 400 Memory Stick" [color=blue];
+"Geforce 750M Install GPU" -> "Item Remove GPU" [color=blue];
+"Geforce 750M Install GPU" -> "Item 395" [color=blue];
+"Geforce 750M Install GPU" -> "Item Nvidia Geforce 750M GPU" [color=blue];
+"Nano Install GPU" -> "Item Remove GPU" [color=blue];
+"Nano Install GPU" -> "Item 30" [color=blue];
+"Nano Install GPU" -> "Item AMD Nano GPU" [color=blue];
+"Power Supply 200 Watt Install Power Supply" -> "Item Remove Power Supply" [color=blue];
+"Power Supply 200 Watt Install Power Supply" -> "Item 1100" [color=blue];
+"Power Supply 300 Watt Install Power Supply" -> "Item Remove Power Supply" [color=blue];
+"Power Supply 300 Watt Install Power Supply" -> "Item 9100" [color=blue];
+}
